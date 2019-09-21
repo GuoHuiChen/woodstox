@@ -1,6 +1,6 @@
 # Overview
 
-The gold standard Stax XML API implementation. Now at Github.
+The gold standard Stax XML API implementation. Now at Github. (JDK 1.6)
 
 ## Status
 
