@@ -59,7 +59,8 @@ public final class DataUtil
     public static <T> Iterator<T> singletonIterator(T item) {
         // TODO: with JDK 1.7, can use method from Collections
         // TODO: alternatively, with Woodstox 5.1, can fix deprecation marker
-        return SingletonIterator.create(item);
+    	return new SingletonIterator(item);
+        //return SingletonIterator.create(item);
     }
 
     public static <T> Iterator<T> emptyIterator() {

@@ -8,12 +8,12 @@
 		<version>33</version>
 	</parent>
 
-	<groupId>com.fasterxml.woodstox</groupId>
+	<groupId>net.i-moss.woodstox</groupId>
 	<artifactId>woodstox-core-jdk16</artifactId>
 	<version>6.0.2</version>
 	<packaging>bundle</packaging>
 	<name>Woodstox</name>
-	<description> (GBICC compile)
+	<description> (GBICC compiled)
         Woodstox is a high-performance XML processor that
         implements Stax (JSR-173), SAX2 and Stax2 APIs
     </description>

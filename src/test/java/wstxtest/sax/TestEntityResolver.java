@@ -1,6 +1,7 @@
 package wstxtest.sax;
 
 import java.io.*;
+import java.util.Locale;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -27,6 +28,9 @@ public class TestEntityResolver
             +"<root />"
             ;
 
+        System.setProperty("user.language", "en");
+        Locale.setDefault(Locale.ENGLISH);
+        
         SAXParserFactory spf = new WstxSAXParserFactory();
         spf.setNamespaceAware(true);
         SAXParser sp = spf.newSAXParser();
@@ -38,7 +42,8 @@ public class TestEntityResolver
         try {
             sp.parse(new InputSource(new StringReader(XML)), h);
         } catch (SAXException e) {
-            verifyException(e, "No such file or directory");
+            //verifyException(e, "No such file or directory");
+        	verifyException(e, "FileNotFoundException");
         }
 
         // And then with dummy resolver; should work ok now
