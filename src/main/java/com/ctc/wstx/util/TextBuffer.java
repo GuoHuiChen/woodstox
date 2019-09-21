@@ -201,6 +201,7 @@ public final class TextBuffer
             }
             char[] buf = mCurrentSegment;
             mCurrentSegment = null;
+            this.mHasSegments = false;
             mConfig.freeMediumCBuffer(buf);
         }
     }
