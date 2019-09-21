@@ -23,6 +23,13 @@
 			<name>Tatu Saloranta</name>
 			<email>tatu@fasterxml.com</email>
 		</developer>
+
+		<developer>
+                        <id>cgh_chen</id>
+                        <name>GuoHui Chen</name>
+                        <email>cgh_chen@126.com</email>
+                </developer>
+
 	</developers>
 	<organization>
 		<name>FasterXML</name>
