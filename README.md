@@ -17,11 +17,10 @@ The gold standard Stax XML API implementation. Now at Github. (JDK 1.6)
 The most common way is to use Maven (or Ivy) to access it from Maven Central repository.
 Coordinates for this are:
 
-* Group id: `com.fasterxml.woodstox`
-* Artifact id: `woodstox-core`
-* Latest published version: 6.0.0 (2019-08-29)
+* Group id: `net.i-moss.woodstox`
+* Artifact id: `woodstox-core-jdk16` (changed)
+* Latest published version: 6.0.2 (2019-09-21)
 
-Note that Maven id has changed since Woodstox 4.x.
 
 ## Requirements
 
